@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+    <string name="select_country">Select Country</string>
+    <string-array name="country_name">
+
+        <item>INDIA</item>
+        <item>PAKISTAN</item>
+        <item>AMERICA</item>
+        <item>UNITED STATES</item>
+        <item>SPAIN</item>
+
+    </string-array>
+</resources>
