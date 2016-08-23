@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E90FF" >
+
+    <Button android:id="@+id/Add"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addition" />
+
+    <Button android:id="@+id/Subtract"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtraction" />
+
+    <Button android:id="@+id/Multiple"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:rotation="270"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplication" />
+
+    <Button android:id="@+id/Divide"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:rotation="90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Division" />
+
+    <TextSwitcher android:id="@+id/switcher"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
